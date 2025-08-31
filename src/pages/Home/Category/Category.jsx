@@ -29,7 +29,7 @@ subHeading={"From 11.00 am t0 10.00pm"}
                     clickable: true,
                 }}
                 modules={[Pagination]}
-                className="mySwiper mb-20"
+                className="mySwiper mb-10"
             >
                 <SwiperSlide><img src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg" alt="" /></SwiperSlide>
                 <SwiperSlide><img src="https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg" alt="" /></SwiperSlide>

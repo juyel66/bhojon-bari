@@ -1,6 +1,7 @@
 
 import SectionTitle from '../components/SectionTitle';
 import fetured from '../assets/home/featured.jpg';
+import { Link } from 'react-router-dom';
 const Fetured = () => {
     return (
         <div className='mb-20 mt-20'>
@@ -22,7 +23,7 @@ const Fetured = () => {
                         
                     </p>
                     <p className='uppercase'>Where can i get some?</p>
-                    <button className="btn btn-outline btn-primary ">Read more</button>
+                  <Link to="/order">  <button className="btn btn-outline btn-primary ">Order now </button></Link>
                 </div>
             </div>
         </div>

@@ -1,5 +1,5 @@
 import { Helmet } from 'react-helmet-async';
-import { Banner } from './Banner/Banner';
+import Bannerr from './Banner/Bannerr';
 import Category from './Category/Category';
 import Hero from './Hero';
 
@@ -15,7 +15,7 @@ const Home = () => {
                 <title>Bhojon Bari | Home</title>
 
             </Helmet>
-            <Banner></Banner>
+      <Bannerr></Bannerr>
             <Category></Category>
             <Hero></Hero>
            <Popularmenu></Popularmenu>
