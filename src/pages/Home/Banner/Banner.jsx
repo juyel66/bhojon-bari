@@ -23,7 +23,7 @@ export const Banner = () => {
       interval={3000}
       stopOnHover
     >
-      <div>
+      <div className="hero h-[700px]">
         <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg" alt="slide1" />
         <p className="legend">Legend 1</p>
       </div>
