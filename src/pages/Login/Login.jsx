@@ -5,7 +5,7 @@ import useAuth from "../../customHooks/useAuth";
 
 const Login = () => {
   const [showPassword, setShowPassword] = useState(false);
-  const { signIn, signInWithGoogle } = useAuth(); // ✅ Google signin import
+  const { signIn, signInWithGoogle } = useAuth(); // 
   const navigate = useNavigate();
   const location = useLocation();
   const from = location.state?.from?.pathname || "/";
@@ -27,7 +27,7 @@ const Login = () => {
   const handleGoogleLogin = () => {
     signInWithGoogle()
       .then(() => {
-        navigate(from, { replace: true }); // ✅ Google login শেষে redirect
+        navigate(from, { replace: true }); // 
       })
       .catch((err) => console.error("Google Login Error:", err.message));
   };
