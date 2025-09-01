@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const NavBar = () => {
 
@@ -34,8 +34,8 @@ const NavBar = () => {
                         {navOptions}
                     </ul>
                 </div>
-                <div className="navbar-end">
-                    <a className="btn">Button</a>
+                <div className="navbar-end  btn-error">
+                 <NavLink  to="/login"><button className='text-1xl font-semibold btn btn-soft btn-error text-shadow-white border-y-amber-400 bg-yellow-600 text-amber-50'>Login</button></NavLink>
                 </div>
             </div>
         </div>
